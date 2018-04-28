@@ -31,7 +31,11 @@ end
 
 def find_a(array)
   newarray = []
-  
+  array.each do |element|
+    if element[0] == "a"
+      newarray << element
+    end
+  newarray
 end
 
 def sum_array(array)
