@@ -22,7 +22,11 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-
+  newarray=[]
+  array.each do |element|
+    
+  end
+  newarray << newelement
 end
 
 def find_a(array)
