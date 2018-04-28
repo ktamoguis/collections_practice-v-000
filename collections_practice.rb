@@ -30,7 +30,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.inject(0) { |result, element| result + element }
+  
 end
 
 def sum_array(array)
@@ -38,5 +38,13 @@ def sum_array(array)
 end
 
 def add_s(array)
-
+  newarray = []
+  array.each_with_index do |element,index|
+    if index == 2
+      newarray << element
+    else
+      newarray << element + "s"
+    end
+  end
+  newarray
 end
