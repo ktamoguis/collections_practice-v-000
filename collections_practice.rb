@@ -40,7 +40,7 @@ end
 def add_s(array)
   newarray = []
   array.each_with_index do |element,index|
-    if index == 2
+    if index == 1
       newarray << element
     else
       newarray << element + "s"
