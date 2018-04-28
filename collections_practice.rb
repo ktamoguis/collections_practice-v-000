@@ -35,6 +35,7 @@ def find_a(array)
     if element[0] == "a"
       newarray << element
     end
+  end
   newarray
 end
 
