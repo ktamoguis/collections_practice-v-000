@@ -30,11 +30,11 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  
+
 end
 
 def sum_array(array)
-  array.inject(0) { |result, element| result + element } 
+  array.inject(0) { |result, element| result + element }
 end
 
 def add_s(array)
