@@ -24,9 +24,9 @@ end
 def kesha_maker(array)
   newarray=[]
   array.each do |element|
-    newelement = element.sub!(element[2],"$")
+    newarray << element.sub!(element[2],"$")
   end
-  newarray << newelement
+  newarray
 end
 
 def find_a(array)
